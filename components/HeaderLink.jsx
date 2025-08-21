@@ -1,9 +1,10 @@
 import Link from "next/link";
 
-function HeaderLink({ name }) {
+function HeaderLink({ name, image }) {
     return (
         <div className="inline-block group">
-            <Link href="/" className="relative inline-block">
+            <Link href="/" className="relative flex flex-col justify-center items-center">
+                <span className="z-10 text-2xl pb-1"><i className={image}/></span>
                 {/* testo del link */}
                 <span className="z-10">{name}</span>
 

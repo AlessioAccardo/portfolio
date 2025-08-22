@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import "./globals.css";
 import { Raleway } from 'next/font/google';
 
@@ -25,9 +26,8 @@ export default function RootLayout({ children }) {
         className={`${raleway.className} text-white text-xl antialiased w-full max-w-full min-h-screen flex flex-col`}
       >
         <Header />
-        <main className={`flex flex-col flex-1 inset-0 w-full max-w-full bg-slate-950 pointer-events-none`}>
-          {children}
-        </main>
+        {children}
+        <Footer />
       </body>
     </html>
   );

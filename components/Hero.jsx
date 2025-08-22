@@ -17,24 +17,24 @@ function Hero() {
                     />
                 </div>
             </div>
-            <div className="min-h-screen flex flex-col items-center text-center font-medium bg-gray-950 py-10 lg:py-20">
+            <div className="min-h-screen flex flex-col items-center text-center font-medium bg-gray-950 pb-10 lg:py-20">
                 <h1 className="uppercase text-5xl textGradient mb-10">ABOUT ME</h1>
                 <div className="flex flex-col lg:flex-row justify-center items-center lg:px-20 gap-10 lg:gap-0">
                     <div className="flex flex-col w-full max-w-[70%] text-center lg:text-start gap-5">
                         <p>
-                            I am currently a student in computer engineering bachelor's degree course.
+                            I am currently a student in the Bachelor's degree program in Computer Engineering.
                         </p>
                         <p>    
-                            I learned machine learning, programming in Python and Java, databases, internet protocols and some other amazing stuff!
+                            I have studied machine learning, programming in Python and Java, databases, Internet protocols and other related topics.
                         </p>
                         <p>
-                            My main interests are the study of <span className="text-violet-500"><em>Python</em></span> and its application with <span className="text-violet-500"><em>PyTorch</em></span> and <span className="text-violet-500"><em>TensorFlow</em></span>.
+                            My main interests are <span className="text-violet-500"><em>Python</em></span> and its application using <span className="text-violet-500"><em>PyTorch</em></span> and <span className="text-violet-500"><em>TensorFlow</em></span>.
                         </p>
                         <p>
-                            In addition to that I know SQL, MongoDB, Next.js, React, Angular, HTML5, CSS, Javascript and TypeScript.
+                            I also know SQL, MongoDB, Next.js, React, Angular, HTML5, CSS, Javascript and TypeScript.
                         </p>
                         <p>
-                            After my bachelor's degree, I will start the master's degree course in Computer Engineering: <span className="text-violet-500"><em>AI & Data Analysis</em></span>.
+                            After completing my Bachelor's degree, I will begin a Master's degree in Computer Engineering with a specialization in <span className="text-violet-500"><em>AI & Data Analysis</em></span>.
                             </p>
                     </div>
                     <div className="relative w-full max-w-[30%]">

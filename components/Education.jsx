@@ -13,7 +13,7 @@ function Education() {
                 h1="UNIVERSITÀ DEGLI STUDI DI PALERMO"
                 p1="Bachelor's Degree"
                 date="October 2023 - July 2026"
-                p2={`Innovation Engineering (Ingegneria dell'Innovazione per le Imprese Digitali)`}
+                p2="Innovation Engineering (Ingegneria dell'Innovazione per le Imprese Digitali)"
                 courseDescription="Analysis, Linear Algebra, Statistic, Computer Fundamentals, Algorithms and Optimization Methods, Databases, Internet Protocols, Java, C, Python, Machine Learning, Web & Mobile Development, Operative Systems, Automatic Controls, Software Engineering."
             />
             <Card
@@ -23,7 +23,7 @@ function Education() {
                 h1="POLITECNICO DI TORINO"
                 p1="Master's Degree"
                 date="October 2026 - July 2028"
-                p2={`Computer Engineering: Artificial Intelligence and Data Analytics`}
+                p2="Computer Engineering: Artificial Intelligence and Data Analytics"
                 courseDescription="Machine learning and pattern recognition, Advanced Machine Learning, Robot Learning, Big data processing and analytics, Data Science and Database Technology, Computer network technologies and services, System and device programming, Information systems security."
             />            
         </div>

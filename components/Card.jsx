@@ -22,9 +22,7 @@ function Card(props) {
                 <p>{p2}</p>
                 <div className="flex flex-col items-center justify-center text-center">
                     <p>Main Courses:</p>
-                    <p className="self-start">
-                        {courseDescription}
-                    </p>
+                    <p>{courseDescription}</p>
                 </div>
             </div>
         </div>

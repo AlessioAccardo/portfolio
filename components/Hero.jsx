@@ -32,7 +32,7 @@ function Hero() {
                             My main interests are <span className="text-violet-500"><em>Python</em></span> and its application using <a href="https://pytorch.org/" target="_blank" className="text-violet-500"><em>PyTorch</em></a> and <a href="https://www.tensorflow.org/" target="_blank" className="text-violet-500"><em>TensorFlow</em></a>.
                         </p>
                         <p>
-                            I also know SQL, MongoDB, Node.js, Express.js, Next.js, React, Angular, HTML5, CSS, Javascript and TypeScript.
+                            I also know SQL, MongoDB, Node.js, Express.js, Next.js, React, Angular, HTML5, CSS, Javascript, TypeScript and some Swift.
                         </p>
                         <p>
                             After completing my Bachelor's degree, I will begin a Master's degree in Computer Engineering with a specialization in <span className="text-violet-500"><em>Artificial Intelligence and Data Analytics</em></span>.

@@ -37,11 +37,8 @@ function Header() {
                 <button className="lg:hidden text-3xl" onClick={toggle}><i className="fa-solid fa-bars"/></button>
             </header>
 
-            <div className={`lg:hidden flex flex-col items-center py-8 fixed inset-0 bg-slate-950 gap-20 transform transition-transform duration-300 ease-in-out ${isOpen ? "-translate-x-0" : "translate-x-full"} font-medium z-10`}>
+            <div className={`lg:hidden flex flex-col items-center py-8 fixed inset-0 bg-slate-950 gap-20 transform transition-transform duration-600 ease-in-out ${isOpen ? "-translate-x-0" : "translate-x-full"} font-medium z-10`}>
                 <h1 onClick={toggle} className="self-end px-10">Close <span className="ml-2"><i className="fa-solid fa-circle-xmark" /></span></h1>
-                <div onClick={toggle}>
-                    <HeaderLink name={"Home"} image={"fa-solid fa-house"} href={"/"}/>
-                </div>
                 <div onClick={toggle}>
                     <HeaderLink name={"Education"} image={"fa-solid fa-book"} href={"/education"} focus={"group-focus-within:scale-x-100"}/>
                 </div>
@@ -50,6 +47,9 @@ function Header() {
                 </div>
                 <div onClick={toggle}>
                     <HeaderLink name={"Projects"} image={"fa-solid fa-layer-group"} href={"/projects"} focus={"group-focus-within:scale-x-100"}/>
+                </div>
+                <div onClick={toggle}>
+                    <HeaderLink name={"Home"} image={"fa-solid fa-house"} href={"/"}/>
                 </div>
             </div>
         </div>

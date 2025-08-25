@@ -1,8 +1,8 @@
 function Resume() {
     return (
         <div className="w-full max-w-full flex flex-col mt-45 justify-center items-center">
-            <div className="flex flex-col items-center py-15 px-4 gap-8 bg-slate-900 rounded-2xl shadow-2xl w-full max-w-[90%] lg:max-w-[50%] text-center">
-                <p>Download or open here my <span className="font-bold">Curriculum Vitae</span></p>
+            <div className="flex flex-col items-center py-15 px-4 gap-8 bg-transparent w-full max-w-[90%] lg:max-w-[50%] text-center">
+                <p>Open or download my <span className="font-bold">Curriculum Vitae</span></p>
                 <div className="flex flex-col lg:flex-row justify-center gap-5">
                     <a
                         href="/space1.webp"

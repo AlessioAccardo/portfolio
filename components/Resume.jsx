@@ -5,13 +5,13 @@ function Resume() {
                 <p>Open or download my <span className="font-bold">Curriculum Vitae</span></p>
                 <div className="flex flex-col lg:flex-row justify-center gap-5">
                     <a
-                        href="/space1.webp"
+                        href="/CV_AlessioAccardo.pdf"
                         target="_blank"
                         className="py-3 px-4 bg-violet-500 rounded-2xl font-medium">
                             Open CV <span className="ml-2"><i className="fa-regular fa-folder-open"/></span>
                     </a>
                     <a
-                        href="/space1.webp"
+                        href="/CV_AlessioAccardo.pdf"
                         download
                         className="py-3 px-4 bg-violet-500 rounded-2xl font-medium">
                             Download CV <span className="ml-2"><i className="fa-solid fa-download"/></span>

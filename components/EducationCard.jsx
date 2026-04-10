@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-function Card(props) {
+function EducationCard(props) {
 
-    const { pathLogo, h1, p1, date, p2, courseDescription, bg, textColor} = props;
+    const { pathLogo, h1, p1, date, p2, courseDescription, bg, textColor, gpa } = props;
 
     return (
         <div className={`${textColor} font-medium flex flex-col lg:flex-row justify-center items-center ${bg} w-full max-w-[80%] rounded-2xl shadow-2xl py-8 lg:px-8 gap-8 text-center`}>
@@ -20,6 +20,7 @@ function Card(props) {
                 <p className="font-bold">{p1}</p>
                 <p>{date}</p>
                 <p>{p2}</p>
+                <p>GPA: {gpa}</p>
                 <div className="flex flex-col items-center justify-center text-center">
                     <p>Main Courses:</p>
                     <p>{courseDescription}</p>
@@ -29,4 +30,4 @@ function Card(props) {
     );
 }
 
-export default Card;
+export default EducationCard;

@@ -9,7 +9,7 @@ function Footer() {
                     <span><i className="fa-brands fa-github"/></span>
                 </a>
             </div>
-            <p className="col-span-2">Copyright &copy; 2025 AA</p>
+            <p className="col-span-2">Copyright &copy; 2026 AA</p>
             <p className="col-span-1">Designed and Developed by Alessio Accardo</p>
         </footer>
     );

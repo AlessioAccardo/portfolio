@@ -20,7 +20,7 @@ function Education() {
                 date="October 2023 - July 2026"
                 p2="Innovation Engineering for Digital Enterprises"
                 gpa="29.00/30.00 (expected)"
-                courseDescription="Analysis, Linear Algebra, Statistics, Computer Fundamentals, Data Structures & Algorithms, Databases, Computer Networks, Java, Python, Machine Learning, Web & Mobile Development, Operative Systems, Software Engineering."
+                courseDescription="Analysis, Linear Algebra, Statistics, Computer Fundamentals, Data Structures & Algorithms, Machine Learning, programming in Python, Java and C, Databases, Computer Networks, Operating Systems, Software Engineering, Web & Mobile Development."
             />
         </div>
     );
